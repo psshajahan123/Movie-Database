@@ -1,0 +1,45 @@
+.movie-list-item {
+  display: flex;
+  flex-direction: column;
+  border-radius: 7px;
+  width: 200px;
+  height: 400px;
+  margin: 10px;
+  margin-bottom: 20px;
+  box-shadow: 1px 2px 5px 1px rgba(0, 0, 0, 0.46);
+}
+
+.image {
+  border-top-right-radius: 7px;
+  border-top-left-radius: 7px;
+  width: 100%;
+}
+
+.name-heading {
+  color: darkslategray;
+  font-size: 16px;
+  font-family: 'Roboto';
+  font-weight: 600;
+  margin-top: 10px;
+  padding-left: 10px;
+}
+
+.rating {
+  color: brown;
+  font-size: 15px;
+  font-family: 'sans-serif';
+  font-style: oblique;
+  padding-left: 10px;
+  margin-top: 2px;
+}
+
+.button {
+  color: #ffffff;
+  background-color: rgb(255, 99, 252);
+  width: 80%;
+  height: 30px;
+  border-width: 0px;
+  font-weight: 500;
+  margin-left: 10px;
+  border-radius: 3px;
+}

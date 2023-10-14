@@ -1,0 +1,30 @@
+.app-container {
+  margin: 0px;
+  min-height: 100vh;
+}
+
+.app-content {
+  padding: 10px;
+  width: 100%;
+}
+
+.movies-list {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  flex-wrap: wrap;
+}
+
+.products-loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .products-loader-container {
+    width: 70%;
+  }
+}
